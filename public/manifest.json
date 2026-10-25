@@ -1,0 +1,44 @@
+{
+  "name": "StudentPDF - Boîte à Outils PDF 100% Gratuit & Privé",
+  "short_name": "StudentPDF",
+  "description": "Convertissez, fusionnez, divisez, compressez, signez et déverrouillez vos PDF hors-ligne directement dans votre navigateur.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#090d16",
+  "theme_color": "#4f46e5",
+  "categories": ["education", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Fusionner PDF",
+      "short_name": "Fusionner",
+      "description": "Assembler plusieurs fichiers PDF",
+      "url": "/?tool=merge-pdf",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Compresser PDF",
+      "short_name": "Compresser",
+      "description": "Réduire la taille des PDF",
+      "url": "/?tool=compress-pdf",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "OCR Texte",
+      "short_name": "OCR",
+      "description": "Extraire le texte des PDF scannés",
+      "url": "/?tool=ocr-pdf",
+      "icons": [{ "src": "/favicon.svg", "sizes": "192x192" }]
+    }
+  ]
+}

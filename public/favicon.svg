@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#grad)"/>
+  <path fill="#ffffff" d="M160 112h128l96 96v192c0 17.7-14.3 32-32 32H160c-17.7 0-32-14.3-32-32V144c0-17.7 14.3-32 32-32zm112 32v80h80l-80-80z"/>
+  <text x="256" y="342" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="900" font-size="76" fill="#4f46e5" text-anchor="middle" letter-spacing="-1">PDF</text>
+</svg>
